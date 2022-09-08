@@ -8,4 +8,5 @@
 
 ### Common
 `const customChainParams = { name: 'Binance Smart Chain Testnet', chainId: 97, networkId: 97 }`
+
 `const common = Common.default.forCustomChain('ropsten', customChainParams, 'petersburg');`
