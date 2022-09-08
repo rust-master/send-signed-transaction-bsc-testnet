@@ -1,7 +1,6 @@
 const Tx = require('ethereumjs-tx').Transaction;
 const Common = require('ethereumjs-common');
 const Web3 = require('web3');
-// var addresses = require("./addresses.json");
 
 const customChainParams = { name: 'tBNB', chainId: 97, networkId: 97 }
 const common = Common.default.forCustomChain('ropsten', customChainParams, 'petersburg');
@@ -22,7 +21,6 @@ let contract = new web3.eth.Contract(abi, contractAddress, {
 
 let data = contract.methods.store(200).encodeABI();
 
-// create transaction object
 
 web3.eth.getTransactionCount(addressFrom, (err, txCount) => {
 
