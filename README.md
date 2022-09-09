@@ -1,6 +1,6 @@
 # Send Signed Transcation BSC Testnet
 
-## Configuaration for Testnet
+### Configuaration for Testnet
 - networkId: 97
 - chainId: 97
 - name: 'Binance Smart Chain Testnet'
